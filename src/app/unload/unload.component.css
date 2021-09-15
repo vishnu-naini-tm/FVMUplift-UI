@@ -1,0 +1,48 @@
+.stat-green {
+    background-color: #088A29 !important;
+    color: #088A29!important;
+}
+
+.stat-red {
+    background-color: #DF0101 !important;
+    color: #DF0101 !important;
+}
+
+
+.stat-orange {
+  background-color: #967bb6 !important;
+  color: #967bb6 !important;
+}
+
+
+.stat-yellow {
+  background-color: #ffc107 !important;
+  color: #ffc107 !important;
+}
+
+.stat-green {
+  background-color: #088A29 !important;
+  color: #088A29 !important;
+}
+
+.stat-notstarted {
+background-color: #FFFFFF !important;
+color: #FFFFFF !important;
+}
+.stat-nocolor {
+background-color: #FFFFFF !important;
+color: #000000 !important;
+
+}
+
+.ui-card-subheader, .ui-card-content{
+  text-align: center;
+}
+.ui-widget-header{
+  background-color: #ffffff !important;
+}
+
+.opaqueAndPrevent {
+    opacity: 1 !important; 
+    cursor: allowed !important;
+}

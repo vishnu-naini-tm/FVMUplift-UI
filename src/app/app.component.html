@@ -1,0 +1,33 @@
+<!--<h1>FVM Uplift</h1>-->
+
+<style></style>
+<h1>
+  FVM Unload..
+</h1>
+<div class="ui-g-6" style="font-size: 14px">
+<table>
+    <tr>
+        <th>RotueCode   </th>
+        <th>LogisticsPointId  </th>
+        <th>ConnectionDate  </th>
+        <th>ConnectionTime  </th>
+        <th>RelType   </th>
+        <th>OrderNumber  </th>
+        <th>SupplierCode  </th>
+        <th>DockCode  </th>
+        <th>Namc  </th>
+    </tr>
+    <tr *ngFor="let routeData of listApprouteData">
+        <td>{{routeData.routeCode}}</td>
+        <td>{{routeData.logisticsPointId}}</td>
+        <td>{{routeData.connectionDate}}</td>
+        <td>{{routeData.connectionTime}}</td>
+        <td>{{routeData.relType}}</td>
+        <td>{{routeData.orderNumber}}</td>
+        <td>{{routeData.supplierCode}}</td>
+        <td>{{routeData.dockCode}}</td>
+        <td>{{routeData.namc}}</td>
+    </tr>>
+</table>
+</div>
+<router-outlet></router-outlet>

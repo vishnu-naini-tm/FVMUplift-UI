@@ -1,0 +1,30 @@
+
+<style></style>
+<h1>
+  FVM Unload..
+</h1>
+
+<table>
+    <tr>
+        <th>RotueCode</th>
+        <th>LogisticsPointId</th>
+        <th>ConnectionDate</th>
+        <th>ConnectionTime</th>
+        <th>RelType</th>
+        <th>OrderNumber</th>
+        <th>SupplierCode</th>
+        <th>DockCode</th>
+        <th>Namc</th>
+    </tr>
+    <tr *ngFor="let route of listrouteData">
+        <td>{{route.routeCode}}</td>
+        <td>{{route.logisticsPointId}}</td>
+        <td>{{route.connectionDate}}</td>
+        <td>{{route.connectionTime}}</td>
+        <td>{{route.relType}}</td>
+        <td>{{route.orderNumber}}</td>
+        <td>{{route.supplierCode}}</td>
+        <td>{{route.dockCode}}</td>
+        <td>{{route.namc}}</td>
+    </tr>>
+</table>
